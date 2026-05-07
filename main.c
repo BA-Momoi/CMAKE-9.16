@@ -33,7 +33,6 @@ int main(){
     int integer=num_integer;
     int *nums=(int*)malloc(num_integer*sizeof(int));
     for(int i=0,j=0;num_integer!=0&&str[i]!='\0';){
-        int digit_times=0;
         int digit=0;
         if(str_num(str[i])!=-1){
             while(str_num(str[i])!=-1){
@@ -53,6 +52,6 @@ int main(){
     printf("have %d nums\n",integer);
     for(int i=0;i<integer;i++){
         printf("%-3d.%20d\n",i,nums[i]);
-    }
+    }//我嘞个大龟孙，一次过，没有任何修改
     return 0;
 }
