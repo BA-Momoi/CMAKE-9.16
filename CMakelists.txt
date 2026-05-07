@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(CMAKE_C_9.16)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED on)
+add_executable(main main.c)
